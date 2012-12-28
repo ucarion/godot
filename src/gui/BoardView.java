@@ -17,18 +17,18 @@ public class BoardView extends JPanel implements Observer {
 	private int prevXto;
 	private int prevYto;
 	
-	private static ImageIcon black_pawn = new ImageIcon("black_pawn.gif");
-	private static ImageIcon black_knight = new ImageIcon("black_knight.gif");
-	private static ImageIcon black_bishop = new ImageIcon("black_bishop.gif");
-	private static ImageIcon black_rook = new ImageIcon("black_rook.gif");
-	private static ImageIcon black_queen = new ImageIcon("black_queen.gif");
-	private static ImageIcon black_king = new ImageIcon("black_king.gif");
-	private static ImageIcon white_pawn = new ImageIcon("white_pawn.gif");
-	private static ImageIcon white_knight = new ImageIcon("white_knight.gif");
-	private static ImageIcon white_bishop = new ImageIcon("white_bishop.gif");
-	private static ImageIcon white_rook = new ImageIcon("white_rook.gif");
-	private static ImageIcon white_queen = new ImageIcon("white_queen.gif");
-	private static ImageIcon white_king = new ImageIcon("white_king.gif");
+	private static ImageIcon black_pawn = new ImageIcon("icons\\black_pawn.gif");
+	private static ImageIcon black_knight = new ImageIcon("icons\\black_knight.gif");
+	private static ImageIcon black_bishop = new ImageIcon("icons\\black_bishop.gif");
+	private static ImageIcon black_rook = new ImageIcon("icons\\black_rook.gif");
+	private static ImageIcon black_queen = new ImageIcon("icons\\black_queen.gif");
+	private static ImageIcon black_king = new ImageIcon("icons\\black_king.gif");
+	private static ImageIcon white_pawn = new ImageIcon("icons\\white_pawn.gif");
+	private static ImageIcon white_knight = new ImageIcon("icons\\white_knight.gif");
+	private static ImageIcon white_bishop = new ImageIcon("icons\\white_bishop.gif");
+	private static ImageIcon white_rook = new ImageIcon("icons\\white_rook.gif");
+	private static ImageIcon white_queen = new ImageIcon("icons\\white_queen.gif");
+	private static ImageIcon white_king = new ImageIcon("icons\\white_king.gif");
 	
 	@Override
 	public void update(Observable o, Object a) {
