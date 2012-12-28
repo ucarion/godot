@@ -8,3 +8,7 @@
 # Chess stuff / opening database #
 *.pgn
 *.txt
+
+# Eclipse-generated files #
+
+.settings
