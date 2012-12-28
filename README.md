@@ -1,4 +1,4 @@
-This is my simple project I've been working on called Godot. The name Godot comes from Samuel Beckett's play *En Attendant Godot* (*Waiting For Godot*) because I find myself waiting indefinite periods of time for Godot to play a move.
+This is my simple project I've been working on called Godot. The name Godot comes from Samuel Beckett's play *En attendant Godot* (English: *Waiting For Godot*) because I find myself waiting indefinite periods of time for Godot to play a move.
 
 I made Godot both to practice programming and for a science fair project, but most of all I made Godot to have fun.
 
@@ -7,7 +7,7 @@ A large majority of my code is based off of two sources: Stef Luijten's didactic
 At the moment, Godot currently uses the following techniques:
 * Bitboards (including Magic Bitboards)
 * Zobrist hashing
-* Null-move pruning, 
+* Null-move pruning
 * Iterative deepening
 * Quiescent searching
 * Static exchange evaluation (SEE)
