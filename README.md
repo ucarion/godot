@@ -4,7 +4,7 @@ This is my simple project I've been working on called Godot. The name Godot come
 
 I made Godot both to practice programming and for a science fair project, but most of all I made Godot to have fun.
 
-A large majority of my code is based off of two sources: Stef Luijten's didactic *Winglet* (which you can find at [here](http://www.sluijten.com/winglet)) and Alberto Ruibal's *Carballo* (whose source is [here](https://github.com/albertoruibal/carballo)).
+A large amount of my code is based off of two sources: Stef Luijten's didactic *Winglet* (which you can find at [here](http://www.sluijten.com/winglet)) and Alberto Ruibal's *Carballo* (whose source is [here](https://github.com/albertoruibal/carballo)).
 
 At the moment, Godot currently uses the following techniques:
 * Bitboards (including Magic Bitboards)
@@ -32,3 +32,5 @@ If you want to run the bot, be sure to update the final variables `USERNAME` and
      java -cp ./bin/bot GodotBot
      
 \* A note about compiling: Godot relies on Apache's ArrayUtils, and GodotBot relies on Selenium. If you're using Eclipse, you may need to add ArrayUtils and Selenium to your project's referenced libraries.
+
+\** GodotBot is not meant to be for abuse. I put this code here for demonstration, not as a means to help you cheat.
