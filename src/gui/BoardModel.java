@@ -6,8 +6,6 @@ import godot.Move;
 
 import java.util.Observable;
 
-import search.IterativeDeepening;
-import search.IterativeQSEE;
 import search.NullIterQSEE;
 import util.BBUtils;
 import util.SANUtils;
@@ -16,7 +14,7 @@ import movegen.MoveGenerator;
 
 public class BoardModel extends Observable {
 	private Board b;
-	private BoardView v;
+	private BoardView v; // R.I.P. MVC :(
 	
 	public BoardModel(Board b, BoardView v) {
 		this.b = b;

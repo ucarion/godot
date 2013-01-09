@@ -9,6 +9,8 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 public class BoardView extends JPanel implements Observer {
+	private static final long serialVersionUID = -5186810884397733380L;
+
 	private static final int WIDTH = 50;
 	
 	private BoardModel b;
@@ -46,9 +48,6 @@ public class BoardView extends JPanel implements Observer {
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		
-		// g.setColor(Color.BLACK);
-		// g.fillRect(100, 200, 50, 50);
 		
 		for (int i = 0; i < 8; i++) {
 			for (int j = 0; j < 8; j++) {

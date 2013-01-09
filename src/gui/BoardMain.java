@@ -17,6 +17,8 @@ import util.BBUtils;
 import godot.Board;
 
 public class BoardMain extends JFrame implements ActionListener {
+	private static final long serialVersionUID = 6796881569710597920L;
+	
 	private static final int WIDTH = 50;
 	private static final int LOWER_BUFFER = 51;
 	private static final int SIDE_BUFFER = 5;
@@ -135,25 +137,17 @@ public class BoardMain extends JFrame implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == timer) {
 			if (player_time < 0) {
-//				JOptionPane.showMessageDialog(null, "Player lost on time.");
-//				System.exit(0);
+				JOptionPane.showMessageDialog(null, "Player lost on time.");
+				System.exit(0);
 			}
 			else if (engine_time < 0) {
 				JOptionPane.showMessageDialog(null, "Engine lost on time.");
 				System.exit(0);
 			}
-			//
+			
 			showTimesOnTitlebar();
 			
 			if (player_turn) {
-				// timer.stop();
-				// long start = System.currentTimeMillis();
-				// model.makeEngineMove();
-				// long stop = System.currentTimeMillis();
-				// player_time -= (stop - start);
-				// player_turn = false;
-				// timer.start();
-				//
 				player_time -= 100;
 			}
 			else {
