@@ -24,14 +24,19 @@ import util.SANUtils;
  * UnreachableBrowserExceptions and other unpredictable bugs. If you can find a
  * fix to these errors, drop me a message.
  * 
+ * GodotBot assumes that the following settings are set for live chess:
+ * - Board size: Default
+ * - White on bottom: true
+ * - Automatically promote to Queen: false
+ * 
  * @author Ulysse
  * 
  */
 public class GodotBot {
-	private static final int WAITING_INTERVAL = 400;
+	private static final int WAITING_INTERVAL = 500;
 	private static final int SQUARE_WIDTH = 55;
-	private static final String USERNAME = ""; // update this
-	private static final String PASSWORD = ""; // update this
+	private static final String USERNAME = "Samuel_Beckett"; // update this
+	private static final String PASSWORD = "chess2600"; // update this
 	private static final String TIME_CONTROL = "1 Min";
 	private static final String GAME_TYPE = "Rated";
 	private static final int DEPTH = 6;
