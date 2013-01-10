@@ -35,8 +35,8 @@ import util.SANUtils;
 public class GodotBot {
 	private static final int WAITING_INTERVAL = 500;
 	private static final int SQUARE_WIDTH = 55;
-	private static final String USERNAME = "Samuel_Beckett"; // update this
-	private static final String PASSWORD = "chess2600"; // update this
+	private static final String USERNAME = ""; // update this
+	private static final String PASSWORD = ""; // update this
 	private static final String TIME_CONTROL = "1 Min";
 	private static final String GAME_TYPE = "Rated";
 	private static final int DEPTH = 6;
