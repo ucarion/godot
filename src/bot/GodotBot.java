@@ -29,6 +29,10 @@ import util.SANUtils;
  * - White on bottom: true
  * - Automatically promote to Queen: false
  * 
+ * Although human intervention is possible (i.e. a user can decide to accept a
+ * challenge or rematch while waiting for a new game), this will require that
+ * the user make white's first move for Godot if the engine is playing white.
+ * 
  * @author Ulysse
  * 
  */
@@ -39,7 +43,7 @@ public class GodotBot {
 	private static final String PASSWORD = ""; // update this
 	private static final String TIME_CONTROL = "1 Min";
 	private static final String GAME_TYPE = "Rated";
-	private static final int DEPTH = 6;
+	private static final int DEPTH = 5;
 	private static ChromeDriver driver;
 	private static Board b;
 	private static String url;
@@ -69,7 +73,9 @@ public class GodotBot {
 	private static void sleep(int ms) {
 		try {
 			Thread.sleep(ms);
-		} catch (Exception e) {}
+		} catch (Exception e) {
+			System.out.println("Sleep interrupted.");
+		}
 	}
 	
 	private static void sleep() {
